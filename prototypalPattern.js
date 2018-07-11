@@ -1,3 +1,4 @@
+//common in functional programming
 let myObj = {
     insider: 'insideValue',
     myFunc: function(){
@@ -6,7 +7,7 @@ let myObj = {
 }
 myObj.myFunc();
 
-//instantiate and modify
+//instantiate and modify, aka inherit
 let myObj1 = Object.assign(myObj, {
     insider1: 'anotherInsideValue',
     myFunc1: function(){

@@ -1,4 +1,3 @@
-
 //#region Bind example
 (function(){ //creates a local scope for this example
     this.someVariable = 'from outside';
@@ -44,5 +43,6 @@ const myFunc2 = function(arg1, arg2, arg3){
     console.log(arg1 + ':' + arg2 + ':' + arg3);
 }
 
+//same as call, except argument is an array now
 myFunc2.apply({insider: 'This inside'}, [1,2,3]);
 //#endregion
